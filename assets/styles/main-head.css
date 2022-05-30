@@ -1,0 +1,31 @@
+.info--logo {
+    margin: 207px 0 0;
+}
+
+.info--title {
+    margin: 51px 0 0;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 117%;
+    color: #000000;
+}
+
+.info--line {
+    background-color: #000000;
+    margin: 55px 0 0;
+}
+
+.info--text {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 117%;
+    max-width: 270px;
+    margin: 42px 0 0;
+    color: #000000;
+}
+
+.info--download {
+    margin: 42px 0 0;
+}

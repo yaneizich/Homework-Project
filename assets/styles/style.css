@@ -1,5 +1,5 @@
 @import url(/assets/styles/header.css);
-
+@import url(/assets/styles/main-head.css);
 
 * {
     margin: 0;
@@ -19,4 +19,15 @@ li {
 
 .wrapper {
     min-height: 100%;
+}
+
+.container {
+    max-width: calc(1170px + 15px*2);
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.linebar {
+    width: 170px;
+    height: 1px;
 }
