@@ -1,4 +1,14 @@
-.info--logo {
+.main--page {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/img/main-head/background.png);
+    background-size: cover;
+}
+
+
+.main--page--head--info {
+    max-width: 670px;
+}
+
+.info--logo--svg {
     margin: 207px 0 0;
 }
 
@@ -8,11 +18,11 @@
     font-weight: 600;
     font-size: 48px;
     line-height: 117%;
-    color: #000000;
+    color: #fff;
 }
 
 .info--line {
-    background-color: #000000;
+    background-color: #fff;
     margin: 55px 0 0;
 }
 
@@ -23,9 +33,31 @@
     line-height: 117%;
     max-width: 270px;
     margin: 42px 0 0;
-    color: #000000;
+    color: #fff;
 }
 
 .info--download {
-    margin: 42px 0 0;
+    margin: 42px 0 185px;
+    width: 270px;
+    height: 58px;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info--download--link {
+    color: #fff;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 136%;
+}
+
+.info--border--transparent {
+    opacity: 0;
+}
+
+.main--page--head {
+    display: flex;
 }
