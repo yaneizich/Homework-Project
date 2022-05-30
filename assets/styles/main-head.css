@@ -68,7 +68,7 @@
     height: 450px;
     display: flex;
     flex-direction: column;
-
+    overflow: hidden;
     align-self: center;
     border-radius: 10px;
 }
