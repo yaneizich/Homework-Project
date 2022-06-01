@@ -1,0 +1,122 @@
+.main--page {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/img/main-head/background.png);
+    background-size: cover;
+}
+
+
+.main--page--head--info {
+    max-width: 670px;
+}
+
+.info--logo--svg {
+    margin: 207px 0 0;
+}
+
+.info--title {
+    margin: 51px 0 0;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 117%;
+    color: #fff;
+}
+
+.info--line {
+    background-color: #fff;
+    margin: 55px 0 0;
+}
+
+.info--text {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 117%;
+    max-width: 270px;
+    margin: 42px 0 0;
+    color: #fff;
+}
+
+.info--download {
+    margin: 42px 0 185px;
+    width: 270px;
+    height: 58px;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info--download--link {
+    color: #fff;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 136%;
+}
+
+.info--border--transparent {
+    opacity: 0;
+}
+
+.main--page--head {
+    display: flex;
+}
+
+.main--page--head--form {
+    background-color: #FFFFFF;
+    width: 470px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.form--title {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: calc(32.7 / 24 * 100%);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 33px auto 0;
+}
+
+.form--title > span {
+    color: #EC7979;
+}
+
+.form--inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 76px auto;
+    font-size: 24px;
+}
+
+.form--inner > *:not(:last-child) {
+    margin: 0 0 29px;
+}
+
+.form--inner--name,
+.form--inner--email,
+.form--inner--password {
+    width: 370px;
+    height: 38px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    font-size: 16px;
+}
+
+.form--inner--btn {
+    min-width: 100%;
+    height: 60px;
+    background-color: #EC7979;
+    color:#FFFFFF;
+    border: none;
+    font-family: 'Open Sans';
+    font-weight: 600px;
+    font-size: 15px;
+    line-height: 136%;
+}
